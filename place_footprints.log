@@ -1,0 +1,21 @@
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 647:Plugin executed on: 'win32'
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 648:Plugin executed with python version: '3.11.5 (main, May 10 2024, 05:24:12) [MSC v.1939 64 bit (AMD64)]'
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 649:KiCad build version: 8.0.3
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 650:Plugin version: 3.0.0
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 651:Frame repr: <wx._core.Frame object at 0x000001D6F71E1360>
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U4 on root level
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U3 on root level
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U2 on root level
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U1 on root level
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R4 on root level
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R3 on root level
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R2 on root level
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint R1 on root level
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C1 on root level
+08-09 13:59:53 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint BT1 on root level
+08-09 13:59:56 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 830:Reference designator is: RN
+08-09 13:59:56 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 831:Reference number is: 1
+08-09 13:59:56 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 863:Sorted and filtered list:
+['RN1', 'RN2', 'RN3', 'RN4', 'RN5', 'RN6']
+08-09 13:59:56 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 359:wx.Colour(240, 240, 240, 255)
