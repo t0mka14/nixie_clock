@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "nixie_supply-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/nixie_supply-eagle-import.kicad_sym")(options "")(descr ""))
+)
