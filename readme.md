@@ -5,6 +5,7 @@ this would be just a small project, but well... Anyway it turned out to be a max
 USB powered nixie clock. It is controlled by RP2040.
 
 ## Table of Contents
+<<<<<<< HEAD
 - [Hardware](#hardware)
   - [Z570M socket](#z570m socket)
   - [HV power supply board](#hv-power-supply)
@@ -15,13 +16,21 @@ USB powered nixie clock. It is controlled by RP2040.
 ## Hardware
 This project contains 4 PCBs (3x 2 layer, 1x 4 layer) in total. They are supposed to be stacked on top of each other using M3 spacers. 
 
+- [Z570M socket](#z570m-socket)
+- [HV power supply board](#hv-power-supply)
+- [Digits and HV5530 board](#digits-and-HV5530-board)
+- [Control board](#control-board)
+
+
 ### Z570M socket
 This pcb is just a socket for the [Z570M](https://www.tube-tester.com/sites/nixie/data/z570m/z570m.htm).
 There were original plastic sockets produced for them, but I don't have one. When soldering the tube, it is better
 to cool down the contacts near the tube to avoid possible vacuum leak. It can be done with a wet napkin, just
 be careful to not dissolve the red coating.
-<img alt="Z570M pcb" height="200" src="img/z570m.jpg" width="200"/>
-<img alt="Z570M on socket" height="200" src="img/nixie.jpg" width="200"/>
+<p align="center">
+    <img alt="Z570M pcb" src="img/z570m.jpg" width="40%"/>
+    <img alt="Z570M on socket" src="img/nixie.jpg" width="40%"/>
+</p>
 ### HV power supply
 This board is a boost converter powered by MAX1771. The PCB is modified from [Nick de Smith](https://nick.desmith.net) design. It generates 150-220V from 12V input for the tubes. Set voltage by trimmer
 on the board. It is not galvanically isolated, so be careful to not get shocked.
