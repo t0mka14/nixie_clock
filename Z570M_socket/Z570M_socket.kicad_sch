@@ -6,10 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Z570M socket")
-		(date "20.11.2024")
+		(date "2025-04-11")
 		(rev "0.1")
-		(company "Tomas Kouba")
-		(comment 1 "Socket for Z570M nixie tube.")
+		(company "TK")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x05_Pin"
@@ -932,19 +931,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "When soldering, cool pins near the place where they enter the tube.\nToo much heat can cause vacuum leak.\nRed tube coating dissolves in water!"
-		(exclude_from_sim no)
-		(at 138.684 120.396 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-			)
-		)
-		(uuid "f8f517e0-e28e-4b29-b3af-1782d659a6ad")
-	)
 	(wire
 		(pts
-			(xy 163.83 92.71) (xy 184.15 92.71)
+			(xy 173.99 97.79) (xy 194.31 97.79)
 		)
 		(stroke
 			(width 0)
@@ -954,7 +943,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 90.17) (xy 120.65 90.17)
+			(xy 120.65 95.25) (xy 130.81 95.25)
 		)
 		(stroke
 			(width 0)
@@ -964,7 +953,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 87.63) (xy 168.91 87.63)
+			(xy 194.31 92.71) (xy 179.07 92.71)
 		)
 		(stroke
 			(width 0)
@@ -974,7 +963,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 87.63) (xy 168.91 85.09)
+			(xy 179.07 92.71) (xy 179.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -984,7 +973,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 90.17) (xy 109.22 87.63)
+			(xy 119.38 95.25) (xy 119.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -994,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 87.63) (xy 139.7 87.63)
+			(xy 176.53 92.71) (xy 149.86 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1004,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 95.25) (xy 113.03 92.71)
+			(xy 123.19 100.33) (xy 123.19 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1014,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 100.33) (xy 120.65 100.33)
+			(xy 116.84 105.41) (xy 130.81 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1024,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 92.71) (xy 163.83 90.17)
+			(xy 173.99 97.79) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1034,7 +1023,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 95.25) (xy 113.03 95.25)
+			(xy 116.84 100.33) (xy 123.19 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1044,7 +1033,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 97.79) (xy 120.65 97.79)
+			(xy 116.84 102.87) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1054,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 95.25) (xy 184.15 95.25)
+			(xy 149.86 100.33) (xy 194.31 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1064,7 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 92.71) (xy 120.65 92.71)
+			(xy 123.19 97.79) (xy 130.81 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1074,7 +1063,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 110.49 92.71)
+			(xy 116.84 97.79) (xy 120.65 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1084,7 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 90.17) (xy 166.37 90.17)
+			(xy 194.31 95.25) (xy 176.53 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1094,7 +1083,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 90.17) (xy 166.37 87.63)
+			(xy 176.53 95.25) (xy 176.53 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1104,7 +1093,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 90.17) (xy 109.22 90.17)
+			(xy 116.84 95.25) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1114,7 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 90.17) (xy 139.7 90.17)
+			(xy 173.99 95.25) (xy 149.86 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1124,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 92.71) (xy 110.49 90.17)
+			(xy 120.65 97.79) (xy 120.65 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1134,7 +1123,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 100.33) (xy 184.15 100.33)
+			(xy 149.86 105.41) (xy 194.31 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1144,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 97.79) (xy 184.15 97.79)
+			(xy 149.86 102.87) (xy 194.31 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1154,7 +1143,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 87.63) (xy 120.65 87.63)
+			(xy 119.38 92.71) (xy 130.81 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1164,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 85.09) (xy 139.7 85.09)
+			(xy 179.07 90.17) (xy 149.86 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1174,7 +1163,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 189.23 95.25 180)
+		(at 199.39 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1183,7 +1172,7 @@
 		(fields_autoplaced yes)
 		(uuid "45482e53-dc99-4fd2-b224-97ead62e4a7b")
 		(property "Reference" "J1"
-			(at 190.5 92.7099 0)
+			(at 200.66 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1181,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Pin"
-			(at 190.5 95.2499 0)
+			(at 200.66 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1190,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 189.23 95.25 0)
+			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +1199,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 95.25 0)
+			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1208,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 189.23 95.25 0)
+			(at 199.39 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1245,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 101.6 95.25 0)
+		(at 111.76 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1264,7 +1253,7 @@
 		(dnp no)
 		(uuid "4c0bc696-ac8f-4288-b67d-7a45a60d7d59")
 		(property "Reference" "J3"
-			(at 97.79 84.836 0)
+			(at 107.95 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1272,7 +1261,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 98.044 87.122 0)
+			(at 108.204 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +1269,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 101.6 95.25 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 95.25 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1287,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 101.6 95.25 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1321,7 @@
 	)
 	(symbol
 		(lib_id "tomas_lib:Z570m")
-		(at 130.81 102.87 0)
+		(at 140.97 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1341,7 +1330,7 @@
 		(fields_autoplaced yes)
 		(uuid "c86385de-b4ca-4c69-89c2-41e3da03e681")
 		(property "Reference" "U1"
-			(at 130.175 78.74 0)
+			(at 140.335 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1338,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 130.175 81.28 0)
+			(at 140.335 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +1346,7 @@
 			)
 		)
 		(property "Footprint" "tomas_lib:Z570M"
-			(at 129.54 102.87 0)
+			(at 139.7 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,7 +1355,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/data/z570m/z570m.htm"
-			(at 129.54 102.87 0)
+			(at 139.7 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1375,7 +1364,7 @@
 			)
 		)
 		(property "Description" "140V@2mA, 170V start"
-			(at 129.54 102.87 0)
+			(at 139.7 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
