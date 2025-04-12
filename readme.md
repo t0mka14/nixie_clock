@@ -5,7 +5,7 @@ this would be just a small project, but well... Anyway it turned out to be a max
 USB powered nixie clock. It is controlled by RP2040.
 
 ## Table of Contents
-- [Z570M socket](#z570m socket)
+- [Z570M socket](#z570m-socket)
 - [HV power supply board](#hv-power-supply)
 - [Digits and HV5530 board](#digits-and-HV5530-board)
 - [Control board](#control-board)
