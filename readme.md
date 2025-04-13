@@ -28,9 +28,10 @@ There were original plastic sockets produced for them, but I don't have one. Whe
 to cool down the contacts near the tube to avoid possible vacuum leak. It can be done with a wet napkin, just
 be careful to not dissolve the red coating.
 <p align="center">
-    <img alt="Z570M pcb" src="img/z570m.jpg" width="40%"/>
-    <img alt="Z570M on socket" src="img/nixie.jpg" width="40%"/>
+    <img alt="Z570M pcb" src="img/z570m.jpg" width="30%"/>
+    <img alt="Z570M on socket" src="img/nixie.jpg" width="30%" style="transform: rotate(90deg);"/>
 </p>
+
 ### HV power supply
 This board is a boost converter powered by MAX1771. The PCB is modified from [Nick de Smith](https://nick.desmith.net) design. It generates 150-220V from 12V input for the tubes. Set voltage by trimmer
 on the board. It is not galvanically isolated, so be careful to not get shocked.
