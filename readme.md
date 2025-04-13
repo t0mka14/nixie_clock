@@ -29,17 +29,20 @@ be careful to not dissolve the red coating.
 ### HV power supply
 This board is a boost converter powered by MAX1771. The PCB is modified from [Nick de Smith](https://nick.desmith.net) design. It generates 150-220V from 12V input for the tubes. Set voltage by trimmer
 on the board. It is not galvanically isolated, so be careful to not get shocked.
+<img alt="Z570M pcb" src="img/psu.jpg" width="30%"/>
 
 ### Digits and HV5530 board
 This is basically a holder for the tubes with a [HV5530](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005851A.pdf) soldered on.
 I personally do not like time multiplexing nixies as it causes more wear on the cathodes. One HV5530 can drive 
 up to 3 tubes and 2 dividers. 
+<img alt="Z570M pcb" src="img/top_pcb.jpg" width="30%"/>
 
 ### Control board
 The digital part consists of a RP2040, DS3231 for RTC, and DS18B20 for temperature sensing. The non used pins of RP2040
 are fanned out to a standard pin header for additions that will be surely found out just after the design is completed :D 
 To lower the already high step-up ratio, the TPS2573 requests 12V from USB PD charger. RP2040 is also programmed using
 that USB-C. This is the only 4 layer board in the project.
+<img alt="Z570M pcb" src="img/digital.jpg" width="30%"/>
 
 ### Software
 WIP
