@@ -29,7 +29,7 @@ to cool down the contacts near the tube to avoid possible vacuum leak. It can be
 be careful to not dissolve the red coating.
 <p align="center">
     <img alt="Z570M pcb" src="img/z570m.jpg" width="30%"/>
-    <img alt="Z570M on socket" src="img/nixie.jpg" width="30%" style="transform: rotate(90deg);"/>
+    <img alt="Z570M on socket" src="img/nixie_r.jpg" width="30%" style="transform: rotate(90deg);"/>
 </p>
 
 ### HV power supply
