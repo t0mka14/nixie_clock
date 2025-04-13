@@ -5,7 +5,7 @@ this would be just a small project, but well... Anyway it turned out to be a max
 USB powered nixie clock. It is controlled by RP2040.
 
 ## Table of Contents
-<<<<<<< HEAD
+
 - [Hardware](#hardware)
   - [Z570M socket](#z570m socket)
   - [HV power supply board](#hv-power-supply)
@@ -29,7 +29,7 @@ to cool down the contacts near the tube to avoid possible vacuum leak. It can be
 be careful to not dissolve the red coating.
 <p align="center">
     <img alt="Z570M pcb" src="img/z570m.jpg" width="30%"/>
-    <img alt="Z570M on socket" src="img/nixie_r.jpg" width="30%" style="transform: rotate(90deg);"/>
+    <img alt="Z570M on socket" src="img/nixie_r.jpg" width="30%"/>
 </p>
 
 ### HV power supply
